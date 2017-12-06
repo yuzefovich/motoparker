@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57091FE81FD4EEBA0003CE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57091FE71FD4EEBA0003CE21 /* AppDelegate.swift */; };
+		57091FEA1FD4EEBA0003CE21 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57091FE91FD4EEBA0003CE21 /* WelcomeViewController.swift */; };
+		57091FED1FD4EEBA0003CE21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57091FEB1FD4EEBA0003CE21 /* Main.storyboard */; };
+		57091FEF1FD4EEBA0003CE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57091FEE1FD4EEBA0003CE21 /* Assets.xcassets */; };
+		57091FF21FD4EEBA0003CE21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57091FF01FD4EEBA0003CE21 /* LaunchScreen.storyboard */; };
+		57091FFA1FD4F03A0003CE21 /* motorcycleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57091FF91FD4F0390003CE21 /* motorcycleicon.png */; };
+		572785EB1FD7BBC4000DBD68 /* UnmeteredMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572785EA1FD7BBC4000DBD68 /* UnmeteredMapViewController.swift */; };
+		572785ED1FD7BBE2000DBD68 /* MeteredMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572785EC1FD7BBE2000DBD68 /* MeteredMapViewController.swift */; };
+		572B12C01FD5040C008A01ED /* unmetered.json in Resources */ = {isa = PBXBuildFile; fileRef = 572B12BF1FD5040C008A01ED /* unmetered.json */; };
+		572B12C21FD50454008A01ED /* metered.json in Resources */ = {isa = PBXBuildFile; fileRef = 572B12C11FD50454008A01ED /* metered.json */; };
+		572B12C41FD508B5008A01ED /* Parking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B12C31FD508B5008A01ED /* Parking.swift */; };
+		57EBF9671FD7C5E800F687E4 /* moto-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBF9611FD7C5E700F687E4 /* moto-20@2x.png */; };
+		57EBF9681FD7C5E800F687E4 /* moto-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBF9621FD7C5E700F687E4 /* moto-40@3x.png */; };
+		57EBF9691FD7C5E800F687E4 /* moto-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBF9631FD7C5E700F687E4 /* moto-40@2x.png */; };
+		57EBF96A1FD7C5E800F687E4 /* moto-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBF9641FD7C5E700F687E4 /* moto-60@3x.png */; };
+		57EBF96B1FD7C5E800F687E4 /* moto-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBF9651FD7C5E700F687E4 /* moto-60@2x.png */; };
+		57EBF96C1FD7C5E800F687E4 /* moto-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57EBF9661FD7C5E800F687E4 /* moto-20@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57091FE41FD4EEBA0003CE21 /* MotoParker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoParker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57091FE71FD4EEBA0003CE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57091FE91FD4EEBA0003CE21 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		57091FEC1FD4EEBA0003CE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57091FEE1FD4EEBA0003CE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57091FF11FD4EEBA0003CE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57091FF31FD4EEBA0003CE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57091FF91FD4F0390003CE21 /* motorcycleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = motorcycleicon.png; path = MotoParker/motorcycleicon.png; sourceTree = "<group>"; };
+		572785EA1FD7BBC4000DBD68 /* UnmeteredMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnmeteredMapViewController.swift; sourceTree = "<group>"; };
+		572785EC1FD7BBE2000DBD68 /* MeteredMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteredMapViewController.swift; sourceTree = "<group>"; };
+		572B12BF1FD5040C008A01ED /* unmetered.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = unmetered.json; path = MotoParker/unmetered.json; sourceTree = "<group>"; };
+		572B12C11FD50454008A01ED /* metered.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = metered.json; path = MotoParker/metered.json; sourceTree = "<group>"; };
+		572B12C31FD508B5008A01ED /* Parking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking.swift; sourceTree = "<group>"; };
+		57EBF9611FD7C5E700F687E4 /* moto-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moto-20@2x.png"; path = "MotoParker/moto-20@2x.png"; sourceTree = "<group>"; };
+		57EBF9621FD7C5E700F687E4 /* moto-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moto-40@3x.png"; path = "MotoParker/moto-40@3x.png"; sourceTree = "<group>"; };
+		57EBF9631FD7C5E700F687E4 /* moto-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moto-40@2x.png"; path = "MotoParker/moto-40@2x.png"; sourceTree = "<group>"; };
+		57EBF9641FD7C5E700F687E4 /* moto-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moto-60@3x.png"; path = "MotoParker/moto-60@3x.png"; sourceTree = "<group>"; };
+		57EBF9651FD7C5E700F687E4 /* moto-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moto-60@2x.png"; path = "MotoParker/moto-60@2x.png"; sourceTree = "<group>"; };
+		57EBF9661FD7C5E800F687E4 /* moto-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moto-20@3x.png"; path = "MotoParker/moto-20@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57091FE11FD4EEBA0003CE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57091FDB1FD4EEBA0003CE21 = {
+			isa = PBXGroup;
+			children = (
+				57EBF9611FD7C5E700F687E4 /* moto-20@2x.png */,
+				57EBF9661FD7C5E800F687E4 /* moto-20@3x.png */,
+				57EBF9631FD7C5E700F687E4 /* moto-40@2x.png */,
+				57EBF9621FD7C5E700F687E4 /* moto-40@3x.png */,
+				57EBF9651FD7C5E700F687E4 /* moto-60@2x.png */,
+				57EBF9641FD7C5E700F687E4 /* moto-60@3x.png */,
+				572B12C11FD50454008A01ED /* metered.json */,
+				572B12BF1FD5040C008A01ED /* unmetered.json */,
+				57091FF91FD4F0390003CE21 /* motorcycleicon.png */,
+				57091FE61FD4EEBA0003CE21 /* MotoParker */,
+				57091FE51FD4EEBA0003CE21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57091FE51FD4EEBA0003CE21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57091FE41FD4EEBA0003CE21 /* MotoParker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57091FE61FD4EEBA0003CE21 /* MotoParker */ = {
+			isa = PBXGroup;
+			children = (
+				57091FE71FD4EEBA0003CE21 /* AppDelegate.swift */,
+				57091FE91FD4EEBA0003CE21 /* WelcomeViewController.swift */,
+				57091FEB1FD4EEBA0003CE21 /* Main.storyboard */,
+				57091FEE1FD4EEBA0003CE21 /* Assets.xcassets */,
+				57091FF01FD4EEBA0003CE21 /* LaunchScreen.storyboard */,
+				57091FF31FD4EEBA0003CE21 /* Info.plist */,
+				572B12C31FD508B5008A01ED /* Parking.swift */,
+				572785EA1FD7BBC4000DBD68 /* UnmeteredMapViewController.swift */,
+				572785EC1FD7BBE2000DBD68 /* MeteredMapViewController.swift */,
+			);
+			path = MotoParker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57091FE31FD4EEBA0003CE21 /* MotoParker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57091FF61FD4EEBA0003CE21 /* Build configuration list for PBXNativeTarget "MotoParker" */;
+			buildPhases = (
+				57091FE01FD4EEBA0003CE21 /* Sources */,
+				57091FE11FD4EEBA0003CE21 /* Frameworks */,
+				57091FE21FD4EEBA0003CE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoParker;
+			productName = MotoParker;
+			productReference = 57091FE41FD4EEBA0003CE21 /* MotoParker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57091FDC1FD4EEBA0003CE21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yahor Yuzefovich";
+				TargetAttributes = {
+					57091FE31FD4EEBA0003CE21 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57091FDF1FD4EEBA0003CE21 /* Build configuration list for PBXProject "MotoParker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57091FDB1FD4EEBA0003CE21;
+			productRefGroup = 57091FE51FD4EEBA0003CE21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57091FE31FD4EEBA0003CE21 /* MotoParker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57091FE21FD4EEBA0003CE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572B12C21FD50454008A01ED /* metered.json in Resources */,
+				57EBF96B1FD7C5E800F687E4 /* moto-60@2x.png in Resources */,
+				57091FF21FD4EEBA0003CE21 /* LaunchScreen.storyboard in Resources */,
+				57EBF9691FD7C5E800F687E4 /* moto-40@2x.png in Resources */,
+				57EBF9671FD7C5E800F687E4 /* moto-20@2x.png in Resources */,
+				572B12C01FD5040C008A01ED /* unmetered.json in Resources */,
+				57EBF9681FD7C5E800F687E4 /* moto-40@3x.png in Resources */,
+				57EBF96A1FD7C5E800F687E4 /* moto-60@3x.png in Resources */,
+				57091FEF1FD4EEBA0003CE21 /* Assets.xcassets in Resources */,
+				57091FED1FD4EEBA0003CE21 /* Main.storyboard in Resources */,
+				57EBF96C1FD7C5E800F687E4 /* moto-20@3x.png in Resources */,
+				57091FFA1FD4F03A0003CE21 /* motorcycleicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57091FE01FD4EEBA0003CE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57091FEA1FD4EEBA0003CE21 /* WelcomeViewController.swift in Sources */,
+				572B12C41FD508B5008A01ED /* Parking.swift in Sources */,
+				57091FE81FD4EEBA0003CE21 /* AppDelegate.swift in Sources */,
+				572785EB1FD7BBC4000DBD68 /* UnmeteredMapViewController.swift in Sources */,
+				572785ED1FD7BBE2000DBD68 /* MeteredMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57091FEB1FD4EEBA0003CE21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57091FEC1FD4EEBA0003CE21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57091FF01FD4EEBA0003CE21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57091FF11FD4EEBA0003CE21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57091FF41FD4EEBA0003CE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57091FF51FD4EEBA0003CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57091FF71FD4EEBA0003CE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZTVV7YLYP;
+				INFOPLIST_FILE = MotoParker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzefovich.MotoParker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57091FF81FD4EEBA0003CE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZTVV7YLYP;
+				INFOPLIST_FILE = MotoParker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzefovich.MotoParker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57091FDF1FD4EEBA0003CE21 /* Build configuration list for PBXProject "MotoParker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57091FF41FD4EEBA0003CE21 /* Debug */,
+				57091FF51FD4EEBA0003CE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57091FF61FD4EEBA0003CE21 /* Build configuration list for PBXNativeTarget "MotoParker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57091FF71FD4EEBA0003CE21 /* Debug */,
+				57091FF81FD4EEBA0003CE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57091FDC1FD4EEBA0003CE21 /* Project object */;
+}

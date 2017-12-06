@@ -1,0 +1,868 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "iw7d-yey5",
+      "name" : "Unmetered Motorcycle Parking",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1456536806,
+      "description" : "Shows the locations and space count of unmetered motorcycle parking for the City of San Francisco. Dataset is manually updated when MTA Board resolutions are passed. This dataset is updated infrequently, several times a year at most.",
+      "displayType" : "table",
+      "downloadCount" : 480,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1497717321,
+      "licenseId" : "PDDL",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 18251760,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1460744453,
+      "publicationGroup" : 8439635,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1497717255,
+      "rowsUpdatedBy" : "dbag-6qd9",
+      "tableId" : 8439635,
+      "totalTimesRated" : 0,
+      "viewCount" : 304,
+      "viewLastModified" : 1461773425,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 244349773,
+        "name" : "Object ID",
+        "dataTypeName" : "number",
+        "fieldName" : "object_id",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 34674955,
+        "cachedContents" : {
+          "largest" : "172",
+          "non_null" : 172,
+          "average" : "86.5",
+          "null" : 0,
+          "top" : [ {
+            "item" : "165",
+            "count" : 20
+          }, {
+            "item" : "166",
+            "count" : 19
+          }, {
+            "item" : "167",
+            "count" : 18
+          }, {
+            "item" : "168",
+            "count" : 17
+          }, {
+            "item" : "169",
+            "count" : 16
+          }, {
+            "item" : "170",
+            "count" : 15
+          }, {
+            "item" : "171",
+            "count" : 14
+          }, {
+            "item" : "172",
+            "count" : 13
+          } ],
+          "smallest" : "1",
+          "sum" : "14878"
+        },
+        "format" : { }
+      }, {
+        "id" : 244349774,
+        "name" : "Street",
+        "dataTypeName" : "text",
+        "fieldName" : "street",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34674956,
+        "cachedContents" : {
+          "largest" : " WASHINGTON ST",
+          "non_null" : 172,
+          "null" : 0,
+          "top" : [ {
+            "item" : "TAYLOR ST",
+            "count" : 20
+          }, {
+            "item" : "PIERCE ST",
+            "count" : 19
+          }, {
+            "item" : "PAGE ST.",
+            "count" : 18
+          }, {
+            "item" : "PINE ST.",
+            "count" : 17
+          }, {
+            "item" : "RITCH ST.",
+            "count" : 16
+          }, {
+            "item" : "S. VAN NESS AVE.",
+            "count" : 15
+          }, {
+            "item" : "TAYLOR ST.",
+            "count" : 14
+          }, {
+            "item" : "VALLEJO ST.",
+            "count" : 13
+          }, {
+            "item" : "NOE ST",
+            "count" : 12
+          }, {
+            "item" : "HILL ST",
+            "count" : 11
+          }, {
+            "item" : "GREENWICH ST",
+            "count" : 10
+          }, {
+            "item" : "STEINER ST",
+            "count" : 9
+          }, {
+            "item" : "15TH ST",
+            "count" : 8
+          }, {
+            "item" : "DOLORES ST",
+            "count" : 7
+          }, {
+            "item" : "12TH ST",
+            "count" : 6
+          }, {
+            "item" : "HAYES ST",
+            "count" : 5
+          }, {
+            "item" : "CARL ST",
+            "count" : 4
+          }, {
+            "item" : "FREDERICK ST",
+            "count" : 3
+          }, {
+            "item" : "LAGUNA HONDA BLVD",
+            "count" : 2
+          }, {
+            "item" : "6TH AVENUE",
+            "count" : 1
+          } ],
+          "smallest" : "1067 BROADWAY ST."
+        },
+        "format" : { }
+      }, {
+        "id" : 244349775,
+        "name" : "Side of Street",
+        "dataTypeName" : "text",
+        "fieldName" : "side_of_street",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34674957,
+        "cachedContents" : {
+          "largest" : "WS",
+          "non_null" : 172,
+          "null" : 0,
+          "top" : [ {
+            "item" : "W",
+            "count" : 20
+          }, {
+            "item" : "E",
+            "count" : 19
+          }, {
+            "item" : "N",
+            "count" : 18
+          }, {
+            "item" : "S",
+            "count" : 17
+          }, {
+            "item" : "SW",
+            "count" : 16
+          }, {
+            "item" : "NS",
+            "count" : 15
+          }, {
+            "item" : "SS",
+            "count" : 14
+          }, {
+            "item" : "WS",
+            "count" : 13
+          }, {
+            "item" : "ES",
+            "count" : 12
+          }, {
+            "item" : "E.",
+            "count" : 11
+          }, {
+            "item" : " W",
+            "count" : 10
+          }, {
+            "item" : " S",
+            "count" : 9
+          }, {
+            "item" : " E",
+            "count" : 8
+          } ],
+          "smallest" : "E"
+        },
+        "format" : { }
+      }, {
+        "id" : 244349776,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34674958,
+        "cachedContents" : {
+          "largest" : "W OF WISCONSIN",
+          "non_null" : 172,
+          "null" : 0,
+          "top" : [ {
+            "item" : "E. LARKIN ST.",
+            "count" : 20
+          }, {
+            "item" : "N. 28TH ST",
+            "count" : 19
+          }, {
+            "item" : "E. ARGUELLO ST",
+            "count" : 18
+          }, {
+            "item" : "990 GREENWICH ST",
+            "count" : 17
+          }, {
+            "item" : " 2037 HYDE ST",
+            "count" : 16
+          }, {
+            "item" : "E. OF TAYLOR ST",
+            "count" : 15
+          }, {
+            "item" : "2921 WASHINGTON ST",
+            "count" : 14
+          }, {
+            "item" : " E OF OCTAVIA BLVD",
+            "count" : 13
+          } ],
+          "smallest" : " "
+        },
+        "format" : { }
+      }, {
+        "id" : 244349777,
+        "name" : "Number of Spaces",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_spaces",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 34674959,
+        "cachedContents" : {
+          "largest" : "35",
+          "non_null" : 172,
+          "average" : "4.476744186046512",
+          "null" : 0,
+          "top" : [ {
+            "item" : "5",
+            "count" : 20
+          }, {
+            "item" : "6",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          }, {
+            "item" : "1",
+            "count" : 17
+          }, {
+            "item" : "4",
+            "count" : 16
+          }, {
+            "item" : "10",
+            "count" : 15
+          }, {
+            "item" : "19",
+            "count" : 14
+          }, {
+            "item" : "2",
+            "count" : 13
+          }, {
+            "item" : "7",
+            "count" : 12
+          }, {
+            "item" : "21",
+            "count" : 11
+          }, {
+            "item" : "33",
+            "count" : 10
+          }, {
+            "item" : "11",
+            "count" : 9
+          }, {
+            "item" : "35",
+            "count" : 8
+          }, {
+            "item" : "32",
+            "count" : 7
+          }, {
+            "item" : "29",
+            "count" : 6
+          }, {
+            "item" : "14",
+            "count" : 5
+          }, {
+            "item" : "12",
+            "count" : 4
+          }, {
+            "item" : "17",
+            "count" : 3
+          }, {
+            "item" : "8",
+            "count" : 2
+          }, {
+            "item" : "9",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "770"
+        },
+        "format" : { }
+      }, {
+        "id" : 244349778,
+        "name" : "Legislation",
+        "dataTypeName" : "text",
+        "fieldName" : "legislation",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34674960,
+        "cachedContents" : {
+          "largest" : "98-96",
+          "non_null" : 172,
+          "null" : 0,
+          "top" : [ {
+            "item" : " ",
+            "count" : 20
+          }, {
+            "item" : "684-01",
+            "count" : 19
+          }, {
+            "item" : "1004-99",
+            "count" : 18
+          }, {
+            "item" : "98-96",
+            "count" : 17
+          }, {
+            "item" : "761-95",
+            "count" : 16
+          }, {
+            "item" : "951-00",
+            "count" : 15
+          }, {
+            "item" : "695-97",
+            "count" : 14
+          }, {
+            "item" : "803-02",
+            "count" : 13
+          }, {
+            "item" : "73-04",
+            "count" : 12
+          }, {
+            "item" : "196-05",
+            "count" : 11
+          }, {
+            "item" : "142-04",
+            "count" : 10
+          }, {
+            "item" : "417-05",
+            "count" : 9
+          }, {
+            "item" : "243-06",
+            "count" : 8
+          }, {
+            "item" : " 456-07",
+            "count" : 7
+          } ],
+          "smallest" : " "
+        },
+        "format" : { }
+      }, {
+        "id" : 244349779,
+        "name" : "Description",
+        "dataTypeName" : "text",
+        "fieldName" : "description",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34674961,
+        "cachedContents" : {
+          "largest" : "WITHIN THE NINE FOOT CURB",
+          "non_null" : 172,
+          "null" : 0,
+          "top" : [ {
+            "item" : " ",
+            "count" : 20
+          }, {
+            "item" : "7.4 FEET TO 16 FEET EAST OF JONES S",
+            "count" : 19
+          }, {
+            "item" : " FROM 2037 TO 2041 HYDE ST",
+            "count" : 18
+          }, {
+            "item" : " FROM PINE ST TO 25 FEET SOUTH",
+            "count" : 17
+          }, {
+            "item" : " BTWN THE DRIVEWAYS",
+            "count" : 16
+          }, {
+            "item" : " FROM LINDEN ST TO 14 FEET NORTH",
+            "count" : 15
+          } ],
+          "smallest" : " "
+        },
+        "format" : { }
+      }, {
+        "id" : 244349780,
+        "name" : "Legislation Date",
+        "dataTypeName" : "date",
+        "fieldName" : "legislation_date",
+        "position" : 8,
+        "renderTypeName" : "date",
+        "tableColumnId" : 34674962,
+        "cachedContents" : {
+          "largest" : 1456963200,
+          "non_null" : 106,
+          "null" : 66,
+          "top" : [ {
+            "item" : 1348531200,
+            "count" : 20
+          }, {
+            "item" : 812160000,
+            "count" : 19
+          }, {
+            "item" : 999129600,
+            "count" : 18
+          }, {
+            "item" : 823132800,
+            "count" : 17
+          }, {
+            "item" : 973641600,
+            "count" : 16
+          }, {
+            "item" : 942278400,
+            "count" : 15
+          }, {
+            "item" : 1113696000,
+            "count" : 14
+          }, {
+            "item" : 854582400,
+            "count" : 13
+          }, {
+            "item" : 869961600,
+            "count" : 12
+          }, {
+            "item" : 1012435200,
+            "count" : 11
+          }, {
+            "item" : 1116460800,
+            "count" : 10
+          }, {
+            "item" : 1140998400,
+            "count" : 9
+          }, {
+            "item" : 1186358400,
+            "count" : 8
+          }, {
+            "item" : 1178409600,
+            "count" : 7
+          }, {
+            "item" : 1177286400,
+            "count" : 6
+          } ],
+          "smallest" : 788054400
+        },
+        "format" : { }
+      }, {
+        "id" : 244349781,
+        "name" : "Last Edited Date",
+        "dataTypeName" : "date",
+        "fieldName" : "last_edited_date",
+        "position" : 9,
+        "renderTypeName" : "date",
+        "tableColumnId" : 34674963,
+        "cachedContents" : {
+          "largest" : 1463702400,
+          "non_null" : 6,
+          "null" : 166,
+          "top" : [ {
+            "item" : 1463702400,
+            "count" : 20
+          }, {
+            "item" : 1463443200,
+            "count" : 19
+          }, {
+            "item" : 1441843200,
+            "count" : 18
+          } ],
+          "smallest" : 1441843200
+        },
+        "format" : { }
+      }, {
+        "id" : 244349782,
+        "name" : "Geom",
+        "dataTypeName" : "location",
+        "fieldName" : "geom",
+        "position" : 10,
+        "renderTypeName" : "location",
+        "tableColumnId" : 34674964,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "37.7763460635",
+            "longitude" : "-122.424446417"
+          },
+          "non_null" : 172,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "37.7786206693",
+              "longitude" : "-122.468194551"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "37.7723341443",
+              "longitude" : "-122.433995328"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "37.7546919037",
+              "longitude" : "-122.419886686"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "37.8014216614",
+              "longitude" : "-122.415970352"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "37.7997027761",
+              "longitude" : "-122.419268932"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "37.7905032215",
+              "longitude" : "-122.4121104"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "37.7905982289",
+              "longitude" : "-122.441423441"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "37.7763460635",
+              "longitude" : "-122.424446417"
+            },
+            "count" : 13
+          } ],
+          "smallest" : {
+            "latitude" : "37.7716504045",
+            "longitude" : "-122.40216756"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "disabledFeatureFlags" : [ "allow_comments" ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Department Metrics" : {
+            "Publishing Department" : "Municipal Transportation Agency "
+          },
+          "Detailed Descriptive" : {
+            "Geographic unit" : "Latitude/longitude"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "As needed",
+            "Publishing frequency" : "As needed"
+          }
+        },
+        "rowIdentifier" : "0",
+        "rowLabel" : "Motorcycle Parking Location",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "dbag-6qd9",
+        "displayName" : "OpenData",
+        "screenName" : "OpenData"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "dbag-6qd9",
+        "displayName" : "OpenData",
+        "screenName" : "OpenData"
+      },
+      "tags" : [ "motorcycles", "parking", "unmetered" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 9562, "1AB2FB4B-C151-4A20-9D07-48E92A96C43C", 9562, 1497717254, "930934", 1497717254, "930934", null, "1", "7TH ST", "W", "W. OF 7TH ST", "5", " ", "93 FEET TO 112 FEET N. OF TOWNSEND", 1169424000, null, [ null, "37.7716504045", "-122.40216756", null, false ] ]
+, [ 9563, "6AF24E1C-9F68-4E83-87A1-AC9F5113D48F", 9563, 1497717254, "930934", 1497717254, "930934", null, "2", "8TH ST", "E", "E SIDE OF 8TH ST", "6", " ", "93 FEET TO 112 FEET N. OF HERON", 1173052800, null, [ null, "37.7743195502", "-122.408814601", null, false ] ]
+, [ 9564, "6F5DE459-1C01-4B5F-86F9-442016C854E0", 9564, 1497717254, "930934", 1497717254, "930934", null, "3", "15TH ST", "N", "N OF 15TH ST", "5", " ", "20 FEET EAST OF MARKET ST", 1173052800, null, [ null, "37.7661465678", "-122.430186713", null, false ] ]
+, [ 9565, "26C5FB7D-D9AC-4DF1-BBBC-D8549A2217F4", 9565, 1497717254, "930934", 1497717254, "930934", null, "4", "21ST ST", "S", "2965 21ST ST", "3", " ", "FROM 2965 TO 2971 21ST ST", 1177286400, null, [ null, "37.7574489507", "-122.414044276", null, false ] ]
+, [ 9566, "49FE4B4D-C520-4E33-9157-BCDF205BC120", 9566, 1497717254, "930934", 1497717254, "930934", null, "5", "BRANNAN ST", "W", "548 BRANNAN ST", "3", "08156", "458 BRANNAN ST TO 10FT E", 1221436800, null, [ null, "37.7774473874", "-122.397876535", null, false ] ]
+, [ 9567, "219D14A4-B7D2-4FDC-8A5A-42551345BBA2", 9567, 1497717254, "930934", 1497717254, "930934", null, "6", "27TH AVE", "W", "671 27TH AVE", "1", " ", "671 27TH AVE", null, null, [ null, "37.7774285182", "-122.486830914", null, false ] ]
+, [ 9568, "F909068B-9B31-4B3C-A845-2AB173BE97AB", 9568, 1497717254, "930934", 1497717254, "930934", null, "7", "FILBERT ST", "S", "EAST OF LAGUNA ST", "3", " ", "BTWN 1885 AND 1879 FILBERT", null, null, [ null, "37.7985975656", "-122.430341596", null, false ] ]
+, [ 9569, "8B90A42D-CD75-43F6-A470-362A0DA0A968", 9569, 1497717254, "930934", 1497717254, "930934", null, "8", "FLORIDA ST", "W", "WEST S. 24 FLORIDA ST", "6", " ", "FROM 24TH FLORIDA ST TO 24FT S.", null, null, [ null, "37.7683616726", "-122.411913984", null, false ] ]
+, [ 9570, "CEB67DC3-A9A7-4BEB-BC8A-EC75D8A81EB0", 9570, 1497717254, "930934", 1497717254, "930934", null, "9", "OAKWOOD ST", "W", "W.S.FROM 20 TO 30 OAKWOOD", "3", " ", "20 TO 30 OAKWOOD ST", null, null, [ null, "37.7610478458", "-122.425087727", null, false ] ]
+, [ 9571, "4E8F861A-A18B-4A9C-B7B0-BED0FF6669B8", 9571, 1497717254, "930934", 1497717254, "930934", null, "10", "FREELON ST", "N", "E. OF 4TH ST", "6", " ", "FROM 108FT TO 139 FT E. OF 4TH ST", null, null, [ null, "37.779137403", "-122.396722618", null, false ] ]
+, [ 9572, "A788C9F2-5F49-457B-A5D0-A2524E5F2CAB", 9572, 1497717254, "930934", 1497717254, "930934", null, "11", "FULTON ST", "S", "W. OF GOUGH ST", "4", " ", "459 FULTON ST", null, null, [ null, "37.778495382", "-122.424334345", null, false ] ]
+, [ 9573, "0E0DC5F2-5EC9-414F-85E8-DB04CD6864CC", 9573, 1497717254, "930934", 1497717254, "930934", null, "12", "JACKSON ST", "N", "E. OF LEAVENWORTH ST", "5", " ", "1242 TO 1252 JACKSON ST", null, null, [ null, "37.7949924351", "-122.415632036", null, false ] ]
+, [ 9574, "45E74D82-832F-4E09-B791-CC24B5E79DDA", 9574, 1497717254, "930934", 1497717254, "930934", null, "13", "BUCHANAN ST", "E", "E. OF BUCHANAN ST", "10", " ", "N OF HAYES ST TO 36FT NORTHERLY", null, null, [ null, "37.7764265677", "-122.428082363", null, false ] ]
+, [ 9575, "4B99B812-C3C1-4D44-B69C-F4FA25BD082C", 9575, 1497717254, "930934", 1497717254, "930934", null, "14", "INDIANA ST", "E", "S OF 23RD ST", "3", "10-017", "1200 BLOCK ON INDIANA ES OF 23RD ST", 1262736000, null, [ null, "37.7548853386", "-122.390758699", null, false ] ]
+, [ 9576, "7E3627CA-C0EB-4032-8554-B81318A0FBA9", 9576, 1497717254, "930934", 1497717254, "930934", null, "15", "TAYLOR ST", "E", "S OF CHESTNUT ST", "3", "10-002", "E OF TAYLOR ST 13 FT S. OF CHESTNUT", 1265414400, null, [ null, "37.8031827258", "-122.414691537", null, false ] ]
+, [ 9577, "0DB474EE-FF78-444A-9DB5-17D49C4948AA", 9577, 1497717254, "930934", 1497717254, "930934", null, "16", "CLEMENTINA ST", "S", "S OF CLEMENTINA", "19", "10-002", "E OF 8TH ST S OF CLEMENTINA ST", 1265414400, null, [ null, "37.7755172794", "-122.410408663", null, false ] ]
+, [ 9578, "D2472260-2D08-44EC-BE39-3CB006F8419B", 9578, 1497717254, "930934", 1497717254, "930934", null, "17", "8TH ST AT WISCONSIN", "SW", "W OF WISCONSIN", "10", "09-186", "8TH ST SW OF WISCONSIN ST", 1260489600, null, [ null, "37.7666831042", "-122.400037427", null, false ] ]
+, [ 9579, "A99EF7EE-F533-46BB-891B-7AB04D8FA00E", 9579, 1497717254, "930934", 1497717254, "930934", null, "18", "SACRAMENTO ST", "N", "W OF LEAVENWORTH", "2", "10-035", "BTWN 1442 AND 1456 DRIVEWAYS", null, null, [ null, "37.7920916467", "-122.416860977", null, false ] ]
+, [ 9580, "33DA367C-8DC2-4B9E-BC97-AC199B59F714", 9580, 1497717254, "930934", 1497717254, "930934", null, "19", "14TH ST", "N", "E OF BELCHER ST", "2", "10-065", "FROM 3 TO 10 FT EAST OF BELCHER", null, null, [ null, "37.7677562589", "-122.429946471", null, false ] ]
+, [ 9581, "A9D11765-4411-4E2A-95DC-9DC878FC81B1", 9581, 1497717254, "930934", 1497717254, "930934", null, "20", "14TH ST", "N", "E OF BELCHER ST", "4", "10-065", "EAST OF BELCHER 20 TO 70 FT", null, null, [ null, "37.7677720855", "-122.429706927", null, false ] ]
+, [ 9582, "2EF7453E-8DBF-4D2C-97D5-E6BDBFABBEA3", 9582, 1497717254, "930934", 1497717254, "930934", null, "21", "WALLER ST", "N", "EAST OF WEBSTER", "2", "10-071", "FROM 40 TO 50 FT EAST OF WEBSTER", null, null, [ null, "37.7715208767", "-122.428334519", null, false ] ]
+, [ 9583, "F9AEDAE1-77FF-4056-B46B-90BAA2CF32C5", 9583, 1497717254, "930934", 1497717254, "930934", null, "22", "BOARDMAN PLACE", "W", "SOUTH OF BRYANT ST", "2", "10-071", "FROM 117 TO 123 FT S. OF BRYANT", null, null, [ null, "37.7748049906", "-122.403289994", null, false ] ]
+, [ 9584, "785B47F2-469A-4728-82FB-E40FBA2331C9", 9584, 1497717254, "930934", 1497717254, "930934", null, "23", "SUTTER ST", "N", "W OF JONES ST", "4", "10-121", "INFRONT OF BLD. # 830", null, null, [ null, "37.78864765", "-122.41403174", null, false ] ]
+, [ 9585, "DF65A0FB-12B7-49C6-8CED-69AB0C53BC85", 9585, 1497717254, "930934", 1497717254, "930934", null, "24", "COLERIDGE ST", "W", "S OF SOUTHERLY PROP.LINE", "6", "10-121", "#88 COLERIDGE ST", null, null, [ null, "37.7444174875", "-122.419397476", null, false ] ]
+, [ 9586, "3E1FE3A6-D793-42D7-A14C-3E1B52BADE14", 9586, 1497717254, "930934", 1497717254, "930934", null, "25", "MONTGOMERY ST", "E", "N OF ALTA", "1", "10-128", "10 TO 17 FT N OF ALTA", null, null, [ null, "37.8016109163", "-122.404435648", null, false ] ]
+, [ 9587, "311237FB-954C-415D-95F7-647498AF7E59", 9587, 1497717254, "930934", 1497717254, "930934", null, "26", "20TH ST", "N", "EAST OF FLORIDA", "2", "11-002", "FROM 10 TO 20 FT EAST OF FLORIDA", null, null, [ null, "37.7592840523", "-122.410585855", null, false ] ]
+, [ 9588, "0FC75405-5A25-4A1A-BD05-5236A1FFAD43", 9588, 1497717254, "930934", 1497717254, "930934", null, "27", "DUNCAN ST", "NS", "PROP LINE OF 318 DUNCAN", "2", "11-014", "7FT WEST OF 318 DUNCAN ST", null, null, [ null, "37.7461453714", "-122.427666516", null, false ] ]
+, [ 9589, "FBA92DE3-0652-4E8C-A55A-00C30C9222E8", 9589, 1497717254, "930934", 1497717254, "930934", null, "28", "HAYES ST", "SS", "EAST OF BRODERICK ST", "4", "11-014", "95 TO 109 FT EAST OF BRODERICK", null, null, [ null, "37.7747405999", "-122.439065536", null, false ] ]
+, [ 9590, "89154363-C9E2-4745-AB44-4E20223364A0", 9590, 1497717254, "930934", 1497717254, "930934", null, "29", "ASHBURY ST", "WS", "W OF ASHBURY N OF WALLER", "7", "11-023", "13 TO 39 FT NORTH OF WALLER", null, null, [ null, "37.7692931143", "-122.446921849", null, false ] ]
+, [ 9591, "6A438441-B081-4608-8198-A9E2E95ECFCD", 9591, 1497717254, "930934", 1497717254, "930934", null, "30", "RUSS ST", "WS", "NORTH OF FOLSOM", "1", "11-117", "150 TO 153 FT NORTH OF FOLSOM", null, null, [ null, "37.7779923782", "-122.407370042", null, false ] ]
+, [ 9592, "FCA54039-7DE2-41F7-841E-F045BDAC2449", 9592, 1497717254, "930934", 1497717254, "930934", null, "31", "13TH STREET", "NS", "EAST OF SOUTH  VAN NESS", "3", " ", "6 TO 16 FT EAST OF SOUTH VANNESS", null, null, [ null, "37.7699795901", "-122.41717575", null, false ] ]
+, [ 9593, "476A6677-A55B-4BAB-ABE7-38B656CF068B", 9593, 1497717254, "930934", 1497717254, "930934", null, "32", "TAYLOR ST", "ES", "SOUTH OF PACIFIC AVE", "1", " ", "116 TO 121 FT SOUTH OF PACIFIC AVE", null, null, [ null, "37.7956541603", "-122.413166908", null, false ] ]
+, [ 9594, "301544BE-0F29-4FCD-9FCC-A1AFCA584E0D", 9594, 1497717254, "930934", 1497717254, "930934", null, "33", "OCTAVIA ST", "WS", "NORTH OF HAYES ST", "4", " ", "FROM HAYES ST TO 18FT NORTHERLY", null, null, [ null, "37.7769194778", "-122.424805655", null, false ] ]
+, [ 9595, "F2D05D26-BBC7-4C89-9BF0-4AB418EF13BA", 9595, 1497717254, "930934", 1497717254, "930934", null, "34", "SACRAMENTO ST", "SS", "EAST OF LAGUNA ST", "2", " ", "INFRONT OF 2171 SACRAMENTO ST", null, null, [ null, "37.7904270778", "-122.428643855", null, false ] ]
+, [ 9596, "ECC23C67-57F0-4295-AC20-1E530CE96273", 9596, 1497717254, "930934", 1497717254, "930934", null, "35", "OCTAVIA ST", "ES", "NORTH OF FRANCISCO ST", "3", " ", "98 TO 107 FT NORTH OF FRANCISCO", null, null, [ null, "37.8027694994", "-122.42978488", null, false ] ]
+, [ 9597, "CB03CC96-1C8D-4B3F-8BE0-848E0BC841EF", 9597, 1497717254, "930934", 1497717254, "930934", null, "36", "KISSLING ST", "SS", "EAST OF 11TH ST", "3", " ", "ADDRESSES 57/59/61", null, null, [ null, "37.7730040265", "-122.414487089", null, false ] ]
+, [ 9598, "F58B1A47-83C2-41E9-A89B-78F98DAAFA2A", 9598, 1497717254, "930934", 1497717254, "930934", null, "37", "TOWNSEND ST", "N", "W OF THE EMBARCADERO", "4", "4008-12", "FROM 25-39FT WEST OF EMBARCADER0", 1325980800, null, [ null, "37.781874273", "-122.388874622", null, false ] ]
+, [ 9599, "DD53B7C7-3244-4AAE-BE5A-2B0721853381", 9599, 1497717254, "930934", 1497717254, "930934", null, "38", "JESSIE ST", "W", "SOUTH OF MCCOPPIN", "4", "4064-12", "FROM McCOPPIN T 14FT SOUTHERLY", 1343001600, null, [ null, "37.7715047912", "-122.421152356", null, false ] ]
+, [ 9600, "BFD22285-8185-4786-810F-5DA6B932A787", 9600, 1497717254, "930934", 1497717254, "930934", null, "39", "FOLSOM ST", "S", "W. OF SHERMAN ST", "3", "4065-12", "96-110FT W. OF SHERMAN (1067-1075)", 1339027200, null, [ null, "37.7770907746", "-122.407220284", null, false ] ]
+, [ 9601, "9392572A-9DE9-4F29-B237-5023D5258E18", 9601, 1497717254, "930934", 1497717254, "930934", null, "40", "LEAVENWORTH ST", "E", "N OF GEARY ST", "5", "4084-12", "630 LEAVENWORTH (118-140)", 1342915200, null, [ null, "37.7870069347", "-122.414797965", null, false ] ]
+, [ 9602, "671A4BF6-59E7-47F9-8253-6865CE343EBE", 9602, 1497717254, "930934", 1497717254, "930934", null, "41", "BROADWAY ST", "N", "W OF LEAVENWORTH ST", "3", "5018-12", "BTWN 1254-1260 BROADWAY", 1348531200, null, [ null, "37.7965931137", "-122.417768548", null, false ] ]
+, [ 9603, "1CAC5CCA-656B-4E22-86D2-596D3B7F5FD5", 9603, 1497717254, "930934", 1497717254, "930934", null, "42", "GOLDEN GATE AVE", "N", "E OF DIVISADERO ST", "2", "5018-12", "BTWN (1674-1680) GOLDEN GATE AVE", 1348531200, null, [ null, "37.7789634699", "-122.438153808", null, false ] ]
+, [ 9604, "60CAE342-48F2-4AE1-8656-B9E778BD0670", 9604, 1497717254, "930934", 1497717254, "930934", null, "43", "NOE ST", "E", "SOUTH OF DUBOCE ST", "3", "5018-12", "225-236 SOUTH OF DUBOCE", 1348531200, null, [ null, "37.7686711763", "-122.433392475", null, false ] ]
+, [ 9605, "7699EBAB-0AB0-49C9-93E1-528CB614102F", 9605, 1497717254, "930934", 1497717254, "930934", null, "44", "KANSAS ST", "W", "SOUTH OF 16TH ST", "3", "5022-12", "138-151 SOUTH OF 16TH ST", 1349308800, null, [ null, "37.7655748516", "-122.403765509", null, false ] ]
+, [ 9606, "934865B1-43B5-4542-85FA-6505C81A5F7D", 9606, 1497717254, "930934", 1497717254, "930934", null, "45", "TAYLOR ST", "W", "S. OF PACIFIC AVE", "2", "5036-12", "8-16FT SOUTH OF PACIFIC AVE", 1352937600, null, [ null, "37.7959620025", "-122.413463475", null, false ] ]
+, [ 9607, "EFDF6B0B-A2FF-4D5C-AC23-2223D8C0E204", 9607, 1497717254, "930934", 1497717254, "930934", null, "46", "WASHINGTON ST", "S", "1435 WASHINGTON ST", "2", " ", "1435 WASHINGTON ST TO 11 FT EAST", null, null, [ null, "37.7937558577", "-122.416878002", null, false ] ]
+, [ 9608, "13ABC396-9A8C-48B4-98A7-EBE637E1EC6F", 9608, 1497717254, "930934", 1497717254, "930934", null, "47", "20TH ST", "N", "3618 20TH ST", "1", " ", "105.5FT  WEST O VALENCIA", null, null, [ null, "37.7585564373", "-122.421866699", null, false ] ]
+, [ 9609, "7214E0E8-652B-4976-ADDA-1BAB7D180DEC", 9609, 1497717254, "930934", 1497717254, "930934", null, "48", "20TH ST", "S", "BTWN 3635 AND 3641 20TH ST", "3", " ", "BETWEEN THE 2 DRIVEWAYS", null, null, [ null, "37.7583634614", "-122.422143097", null, false ] ]
+, [ 9610, "FD2D8A0F-CBD0-49C4-97CB-F4B93CF0F60E", 9610, 1497717254, "930934", 1497717254, "930934", null, "49", "PHELAN ST", "E", "NORTH CLOUD CIRCLE", "21", " ", "FROM N OF CLOUD CIRCLE TO", null, null, [ null, "37.7267181457", "-122.452250307", null, false ] ]
+, [ 9611, "E88A935C-0BE2-4191-AA2A-D454351AE3CA", 9611, 1497717254, "930934", 1497717254, "930934", null, "50", "PHELAN AVE", "W", "SOUTH END OF CLOUD CIRCLE", "33", " ", "60FT SOUTH END OF CLOUD CIRCLE", null, null, [ null, "37.7243383922", "-122.452492868", null, false ] ]
+, [ 9612, "40F29BD3-7F9D-4D91-A12F-9990B33E6547", 9612, 1497717254, "930934", 1497717254, "930934", null, "51", "DIVISION ST", "NS", "WEST OF TOWNSEND ST", "5", " ", "FROM TOWNSEND ST TO 20FT WESTERLY", null, 1463702400, [ null, "37.7700686665", "-122.404092505", null, false ] ]
+, [ 9613, "B1A6B029-3CFC-4D1C-98D0-8CF9BE777391", 9613, 1497717254, "930934", 1497717254, "930934", null, "52", "7TH ST", "W", "NORTH OF KING ST", "11", "5567-16", "10.5 TO 53FT NORTH OF KING ST", 1456963200, 1463443200, [ null, "37.7712413205", "-122.401143635", null, false ] ]
+, [ 9614, "E88B440F-54A7-4855-84B4-AAABAAB3B7E3", 9614, 1497717254, "930934", 1497717254, "930934", null, "53", "FOLSOM ST", "S", "1285 9TH ST", "2", "5407-15", "75 TO 85FT EAST OF 9TH ST", 1431043200, 1463443200, [ null, "37.7738626974", "-122.411308984", null, false ] ]
+, [ 9615, "B7AE3726-283E-4768-95C2-5F0745B038F3", 9615, 1497717254, "930934", 1497717254, "930934", null, "54", "FOLSOM ST.", "S", "W. 8TH ST.", "5", "246-92", " ", null, null, [ null, "37.7745189095", "-122.410482048", null, false ] ]
+, [ 9616, "37C814F5-6AA3-49AC-BC3C-2E39273A7DF0", 9616, 1497717254, "930934", 1497717254, "930934", null, "55", "KAPLAN ST.", "W", "N. CLEMENTINA ST.", "35", "897-96", "FROM CLEMENTINA ST. TO 110' NORT", null, null, [ null, "37.784833251", "-122.399003539", null, false ] ]
+, [ 9617, "34BCC369-0307-405A-96BF-F7E19E06A4C8", 9617, 1497717254, "930934", 1497717254, "930934", null, "56", "OCTAVIA ST.", "E", "S. HAIGHT ST.", "6", "117-95", "FROM 5' TO 26' S. HAIGHT ST. , 2", 793497600, null, [ null, "37.7755025869", "-122.424202168", null, false ] ]
+, [ 9618, "F0193590-41CD-43FE-81E4-05F1FA99CB51", 9618, 1497717254, "930934", 1497717254, "930934", null, "57", "RITCH ST.", "W", "S. BRYANT ST.", "3", "173-99", "FROM 92' TO 103' S. BRYANT ST.,", 921110400, null, [ null, "37.7800296757", "-122.395425353", null, false ] ]
+, [ 9619, "668888B3-687D-4286-B72B-CA9834479B8F", 9619, 1497717254, "930934", 1497717254, "930934", null, "58", "TAYLOR ST.", "E", "S. WASHINGTON ST.", "2", "761-95", "FROM WASHINGTON ST. TO 7' SOUTHE", 812160000, null, [ null, "37.7940912557", "-122.412875583", null, false ] ]
+, [ 9620, "8B7C2EC1-2764-4513-83E7-EDEE1F8D4B19", 9620, 1497717254, "930934", 1497717254, "930934", null, "59", "VALLEJO ST.", "N", "W. HYDE ST.", "2", "695-97", "FROM 136' TO 146' W. HYDE ST., 1", 869961600, null, [ null, "37.7973852091", "-122.4190579", null, false ] ]
+, [ 9621, "BF10E650-60C3-4F6D-9246-33CA85A14A5D", 9621, 1497717254, "930934", 1497717254, "930934", null, "60", "16TH ST.", "N", "E. 8TH ST", "10", "263-01", "FROM 8TH ST TO 35' EASTERLY", 987033600, null, [ null, "37.7664634392", "-122.39886446", null, false ] ]
+, [ 9622, "9D4BA9FB-3E8A-4366-9EC9-0535F3947828", 9622, 1497717254, "930934", 1497717254, "930934", null, "61", "PIERCE ST", "E", "S. PAGE ST", "2", "684-01", "FROM 60' TO 67' S. PAGE ST", 999129600, null, [ null, "37.7720791739", "-122.433961864", null, false ] ]
+, [ 9623, "3757C809-D066-4AD4-AC79-CD96A184DF33", 9623, 1497717254, "930934", 1497717254, "930934", null, "62", "WALLER ST", "N", "W. BELVEDERE ST", "1", "532-02", "FROM 100'-109.5' W.BELVEDERE(1570-15", 1029369600, null, [ null, "37.7687401407", "-122.450017539", null, false ] ]
+, [ 9624, "F0DB7E03-CCF4-4288-AC2A-87DD2AF4B6AB", 9624, 1497717254, "930934", 1497717254, "930934", null, "63", "SANCHEZ ST", "W", "N. 16TH ST", "3", "730-93", "FROM 16TH ST TO APPROX. 13 FEET NORT", null, null, [ null, "37.7645812574", "-122.431047001", null, false ] ]
+, [ 9625, "DEE0F897-9AF5-4C7C-8C2F-36A57481A2C4", 9625, 1497717254, "930934", 1497717254, "930934", null, "64", "DOLORES ST", "E", "S. DUNCAN", "3", "654-04", "DUNCAN ST TO A POINT 19 FEET SOUTHER", null, null, [ null, "37.7460136182", "-122.424446823", null, false ] ]
+, [ 9626, "3EBA366B-1F6C-4F63-807E-B389FD474A13", 9626, 1497717254, "930934", 1497717254, "930934", null, "65", "BAKER ST", "E", "N. HAYES ST", "1", "390-04", "BETWEEN 420 AND 430 DRIVEWAYS", null, null, [ null, "37.7749635909", "-122.441019347", null, false ] ]
+, [ 9627, "E90570D2-83F6-47FE-92A7-97A90535FDD9", 9627, 1497717254, "930934", 1497717254, "930934", null, "66", "NOE ST", "E", "E. ELIZABETH ST", "2", "281-04", "FROM ELIZABETH ST TO 11 FEET SOUTHER", null, null, [ null, "37.7521259958", "-122.431822023", null, false ] ]
+, [ 9628, "EFFA3552-84DC-44BE-B725-E0A01ECE7F42", 9628, 1497717254, "930934", 1497717254, "930934", null, "67", "SCOTT ST", "E", "SCOTT ST AT GROVE ST", "4", "417-05", "FROM GROVE ST TO 16 FEET SOUTHERLY", 1116460800, null, [ null, "37.7761564103", "-122.436217627", null, false ] ]
+, [ 9629, "F1EB7746-BD16-4461-97D0-590868BBA4AE", 9629, 1497717254, "930934", 1497717254, "930934", null, "68", "PIERCE ST", "W", "S. PAGE ST", "2", "684-01", "FROM 39' TO 46' S. PAGE ST", 999129600, null, [ null, "37.7723341443", "-122.433995328", null, false ] ]
+, [ 9630, "FAE39998-1CE1-4B32-A0B6-AE0BCBAD29AF", 9630, 1497717254, "930934", 1497717254, "930934", null, "69", " MINNESOTA ST", "N", "1415 INDIANA ST", "2", "384-07", "2 FEET TO 9FEET NORTH OF MINN", 1182643200, null, [ null, "37.7522597955", "-122.389566951", null, false ] ]
+, [ 9631, "EB1305B1-C323-48B0-9EA9-026939D05E55", 9631, 1497717254, "930934", 1497717254, "930934", null, "70", "13TH ST", "S", "WEST OF TRAINOR", "6", "5268-14", "37 TO 61FT WEST OF TRAINOR", 1399507200, 1463443200, [ null, "37.769565525", "-122.414833976", null, false ] ]
+, [ 9632, "A9302633-83B3-4D60-A52C-A4436FB57EBA", 9632, 1497717254, "930934", 1497717254, "930934", null, "71", "19TH AVE.", "W", "N. HOLLOWAY AVE.", "32", "1040-97", "FROM 320' TO 432' N. HOLLOWAY AV", null, 1441843200, [ null, "37.7224647157", "-122.475394329", null, false ] ]
+, [ 9633, "1670BB69-3C3E-482F-82BD-B5C9187C19F1", 9633, 1497717254, "930934", 1497717254, "930934", null, "72", "19TH AVE.", "W", "N. HOLLOWAY AVE.", "29", "464-96", "FROM 800' TO 900' N. HOLLOWAY AV", 833328000, 1441843200, [ null, "37.7235893985", "-122.475347737", null, false ] ]
+, [ 9634, "A8ED6AA4-8CC8-47EE-928E-5C997CCD0336", 9634, 1497717254, "930934", 1497717254, "930934", null, "73", "16TH ST.", "N", "W. DE HARO ST.", "14", "897-96", "FROM DE HARO ST. TO 50' WESTERLY", 845251200, null, [ null, "37.766207038", "-122.402150957", null, false ] ]
+, [ 9635, "9B66F71B-C00D-4783-B033-6C3327BCA41F", 9635, 1497717254, "930934", 1497717254, "930934", null, "74", "18TH ST.", "N", "W. OF 3922 18TH ST.", "2", "1004-99", "FROM W. PROPERTY LINE OF 3922 18", 942278400, null, [ null, "37.7611975431", "-122.43174242", null, false ] ]
+, [ 9636, "E23E2A55-A644-429F-923D-3BA492909046", 9636, 1497717254, "930934", 1497717254, "930934", null, "75", "19TH ST.", "N", "W. LINDA ST.", "3", "1040-97", "13' ZONE", 879984000, null, [ null, "37.7601099105", "-122.42323913", null, false ] ]
+, [ 9637, "FFBC4CA3-E2A8-431A-81A2-0C7711B9EEA1", 9637, 1497717254, "930934", 1497717254, "930934", null, "76", "2ND ST.", "W", "N. TABER ST.", "3", "545-98", "FROM 2' TO 12.5' N. TABER PLACE,", 900547200, null, [ null, "37.7828497439", "-122.393547311", null, false ] ]
+, [ 9638, "539FDF0C-37DF-49B9-8A4A-7932CAA513D4", 9638, 1497717254, "930934", 1497717254, "930934", null, "77", "2ND ST.", "W", "S. TABER ST.", "3", "545-98", "FROM 2' TO 12.5' S. TABER PLACE,", 900547200, null, [ null, "37.7826106137", "-122.393252574", null, false ] ]
+, [ 9639, "54DE2533-294D-443C-950D-3195E0341D56", 9639, 1497717254, "930934", 1497717254, "930934", null, "78", "32ND AVE.", "E", "N. ANZA ST.", "4", " ", " ", null, null, [ null, "37.7781082204", "-122.492020029", null, false ] ]
+, [ 9640, "B4D23FEB-C9A6-400B-9FF8-E70A24ED0FA6", 9640, 1497717254, "930934", 1497717254, "930934", null, "79", "3RD AVE.", "E", "362-358 3RD AVE.", "3", "1033-94", "FROM 6' S OF N. PROPERTY LINE OF", 788054400, null, [ null, "37.7818331122", "-122.461021866", null, false ] ]
+, [ 9641, "4A63C80A-77A7-4149-A044-7D4054C9C7D3", 9641, 1497717254, "930934", 1497717254, "930934", null, "80", "6TH ST.", "E", "S. HARRISON ST.", "6", "338-99/532-02", "FROM 9' TO 30' S. HARRISON ST.,", 925344000, null, [ null, "37.7769666163", "-122.403473427", null, false ] ]
+, [ 9642, "FC3E5B55-8300-4409-A281-5A4A5C9B0534", 9642, 1497717254, "930934", 1497717254, "930934", null, "81", "CALIFORNIA ST.", "N", "E. CUSHMAN ST.", "5", "953-95", "FROM CUSHMAN ST. TO 18' EASTERLY", 816739200, null, [ null, "37.7919030168", "-122.411331214", null, false ] ]
+, [ 9643, "E7FA36DA-AB73-457F-9518-3703B9A1F91F", 9643, 1497717254, "930934", 1497717254, "930934", null, "82", "CAPP ST.", "E", "N. 17TH ST.", "10", "1046-98", "FROM 17' TO 58' N. 17TH ST., 41'", 913852800, null, [ null, "37.7638568531", "-122.418479679", null, false ] ]
+, [ 9644, "7F57297C-32B6-479B-B5E3-6C7A63B31E7D", 9644, 1497717254, "930934", 1497717254, "930934", null, "83", "CENTRAL AVE.", "E", "N. FULTON ST.", "4", "899-98", "FROM 36' TO 50' N. FULTON ST. ,", 910224000, null, [ null, "37.7763613217", "-122.444735393", null, false ] ]
+, [ 9645, "AF242316-A0CC-46E4-B79E-4EF7E7D8785F", 9645, 1497717254, "930934", 1497717254, "930934", null, "84", "CHESTNUT ST.", "S", "W. LARKIN ST.", "1", "98-96", "FROM 18' TO 21.5' W. LARKIN ST.", 823132800, null, [ null, "37.8025740745", "-122.42177936", null, false ] ]
+, [ 9646, "99E731DA-2DFA-4381-B318-4A6A51767903", 9646, 1497717254, "930934", 1497717254, "930934", null, "85", "CLAY ST.", "N", "E. LEAVENWORTH ST.", "2", "761-95", "FROM LEAVENWORTH ST. TO 7' EASTE", 812160000, null, [ null, "37.7931470419", "-122.415805591", null, false ] ]
+, [ 9647, "F748E848-5E28-4262-B48F-E85C56EE8AD1", 9647, 1497717254, "930934", 1497717254, "930934", null, "86", "CLEMENTINA ST.", "S", "E. 8TH ST.", "5", "1040-97", "FROM 8TH ST. TO 19.5' EASTERLY,", 879984000, null, [ null, "37.775584007", "-122.410288299", null, false ] ]
+, [ 9648, "71F13038-E5C5-46BC-B6D3-D860338BBFBD", 9648, 1497717254, "930934", 1497717254, "930934", null, "87", "DUBOCE ST.", "S", "E. VALENCIA ST.", "12", "1003-98", "FROM 134' TO 176' E. VALENCIA ST", 913248000, null, [ null, "37.7697954516", "-122.421853716", null, false ] ]
+, [ 9649, "0141F146-0C2D-4B47-BCBB-1F942BCB9CFD", 9649, 1497717254, "930934", 1497717254, "930934", null, "88", "GREEN ST.", "N", "E. LARKIN ST.", "1", "98-96", " ", 823132800, null, [ null, "37.7981991389", "-122.420191995", null, false ] ]
+, [ 9650, "D5AA3DAE-D8BC-44DE-B42E-CEBA163D5F1A", 9650, 1497717254, "930934", 1497717254, "930934", null, "89", "GREEN ST.", "N", "E. LARKIN ST.", "1", "98-96", "FROM 39' TO 42.5' E. LARKIN ST.", 823132800, null, [ null, "37.7981596242", "-122.419856393", null, false ] ]
+, [ 9651, "7330D3DD-C253-432D-AAD6-E7B7C7D9AE76", 9651, 1497717254, "930934", 1497717254, "930934", null, "90", "GUERRERO ST.", "E", "S. MARKET ST.", "3", "235-98", "FROM MARKET ST. TO 18' SOUTHERLY", 892080000, null, [ null, "37.7706626945", "-122.424543333", null, false ] ]
+, [ 9652, "62FAC39D-0E1F-41DA-822B-9F73E3CBFA70", 9652, 1497717254, "930934", 1497717254, "930934", null, "91", "HARRISON ST.", "N", "W. 9TH ST.", "5", "668-92", " ", null, null, [ null, "37.7723876772", "-122.41050082", null, false ] ]
+, [ 9653, "0217B92F-0078-4247-82D4-19D3CE9D0839", 9653, 1497717254, "930934", 1497717254, "930934", null, "92", "KAPLAN ST.", "W", "N. CLEMENTINA ST.", "17", "761-95", "FROM 110' TO 170' N. CLEMENTINA", 812160000, null, [ null, "37.7849967184", "-122.399299182", null, false ] ]
+, [ 9654, "E77E7A87-1D34-47A9-BA78-6252EBA17EC0", 9654, 1497717254, "930934", 1497717254, "930934", null, "93", "LARKIN ST", "W", "N. GREEN ST.", "2", "98-96", "FROM 170' TO 177' N. GREEN ST.,", 823132800, null, [ null, "37.7973744729", "-122.420506717", null, false ] ]
+, [ 9655, "735C5F3B-1705-4FB3-B418-13A4AD957972", 9655, 1497717254, "930934", 1497717254, "930934", null, "94", "FRANCISCO ST.", "S", "S. FRANCISCO ST.", "2", "196-05", "BETWEEN DRIVEWAYS OF 1567-1575", 1113350400, null, [ null, "37.8023050874", "-122.430576226", null, false ] ]
+, [ 9656, "133E9D7D-B635-4F3A-BE54-2F42CBE82E20", 9656, 1497717254, "930934", 1497717254, "930934", null, "95", "LEAVENWORTH ST.", "E", "N. CLAY ST.", "2", "761-95", "FROM CLAY ST. TO 7' NORTHERLY", 812160000, null, [ null, "37.7932771327", "-122.415995918", null, false ] ]
+, [ 9657, "F7285C1D-A8AF-48CD-95BB-8D7AD03BA462", 9657, 1497717254, "930934", 1497717254, "930934", null, "96", "LONDON ST.", "E", "S. 335-337 LONDON ST.", "3", "951-00", "FROM 13' TO 23.5' S. OF NORTH PR", 973641600, null, [ null, "37.7237383033", "-122.434340737", null, false ] ]
+, [ 9658, "D6317792-1433-4990-9C78-EE13C32975A7", 9658, 1497717254, "930934", 1497717254, "930934", null, "97", "NOE ST.", "W", "S. MARKET ST.", "2", "86-94", " ", null, null, [ null, "37.7636725337", "-122.433203717", null, false ] ]
+, [ 9659, "E8B3B516-B7F1-43DA-88A6-B6A178655CE2", 9659, 1497717254, "930934", 1497717254, "930934", null, "98", "PAGE ST.", "N", "W. FRANKLIN ST.", "4", " ", " ", null, null, [ null, "37.7743506046", "-122.421412647", null, false ] ]
+, [ 9660, "7CC94092-EE15-4D51-B46C-B4B8EB18C7EB", 9660, 1497717254, "930934", 1497717254, "930934", null, "99", "PAGE ST.", "N", "936 PAGE ST", "2", "60-05", "BETWEEN DRIVEWAYS OF  940 and 932", 1105228800, null, [ null, "37.7723753667", "-122.436929983", null, false ] ]
+, [ 9661, "1145627D-02E7-4586-810D-1E91828CED01", 9661, 1497717254, "930934", 1497717254, "930934", null, "100", "PETER YORKE ST.", "S", "E. GEARY BLVD.", "6", "897-96", "FROM 80' TO 105' E. GEARY BLVD.", 845251200, null, [ null, "37.785728463", "-122.423988714", null, false ] ]
+, [ 9662, "1B0D6301-3666-4A24-ACAB-512EC872FC0D", 9662, 1497717255, "930934", 1497717255, "930934", null, "101", "PINE ST.", "N", "W. FRANKLIN ST.", "3", "951-00", "FROM 67' TO 77.5' W. FRANKLIN ST", 973641600, null, [ null, "37.7892987175", "-122.424217498", null, false ] ]
+, [ 9663, "DD068E64-50D5-4515-9BB4-192302D6F154", 9663, 1497717255, "930934", 1497717255, "930934", null, "102", "PINE ST.", "S", "E. DIVISADERO ST.", "3", "1003-98", "FROM 17' TO 30' E. DIVISADERO ST", 913248000, null, [ null, "37.7870943942", "-122.439701991", null, false ] ]
+, [ 9664, "CCDD793B-35AA-44F3-8CA2-745193104A79", 9664, 1497717255, "930934", 1497717255, "930934", null, "103", "RITCH ST.", "W", "N. 230-236 RITCH ST.", "3", "951-00", "FROM 25' TO 35.5' S. OF NORTH PR", 973641600, null, [ null, "37.780596728", "-122.396124278", null, false ] ]
+, [ 9665, "057FEE55-9788-46F2-89C3-D26ABC23AB31", 9665, 1497717255, "930934", 1497717255, "930934", null, "104", "RITCH ST.", "W", "S. BRYANT ST.", "2", "173-99", "FROM 71' TO 78' S. BRYANT ST., 7", 921110400, null, [ null, "37.7802871035", "-122.395763109", null, false ] ]
+, [ 9666, "F1BD523C-9C57-455A-92B5-D47C824246E5", 9666, 1497717255, "930934", 1497717255, "930934", null, "105", "ROSE ST.", "N", "W. MARKET ST.", "5", "235-98", "FROM MARKET ST. TO 26' WESTERLY,", 892080000, null, [ null, "37.7737598437", "-122.421639846", null, false ] ]
+, [ 9667, "4E270738-FA24-47E9-BA51-1EF5BE91DD3F", 9667, 1497717255, "930934", 1497717255, "930934", null, "106", "S. VAN NESS AVE.", "E", "S. 12TH ST.", "2", "1004-99", "FROM 188' TO 195' S. 12TH ST., 7", 942278400, null, [ null, "37.7736897614", "-122.418590643", null, false ] ]
+, [ 9668, "3A9E36FC-AD0E-4C7C-B427-7B757F63A3CE", 9668, 1497717255, "930934", 1497717255, "930934", null, "107", "S. VAN NESS AVE.", "E.", "S. 12TH ST.", "2", "1004-99", "FROM 234' TO 241' S. 12TH ST.", 942278400, null, [ null, "37.7740229511", "-122.418719938", null, false ] ]
+, [ 9669, "2D0BEBC9-34F6-4DB9-8EB7-B0B0379ECF62", 9669, 1497717255, "930934", 1497717255, "930934", null, "108", "TAPIA DR.", "E", "N. HOLLOWAY AVE.", "8", "591-98", "FROM 213' TO 241' N. HOLLOWAY AV", 901756800, null, [ null, "37.7214395542", "-122.48057665", null, false ] ]
+, [ 9670, "3FD75ED4-9A9B-4E9D-BD3D-A7A3568DC531", 9670, 1497717255, "930934", 1497717255, "930934", null, "109", "TAYLOR ST.", "E", "N. WASHINGTON ST.", "2", "761-95", "FROM WASHINGTON ST. TO 7' NORTHE", 812160000, null, [ null, "37.7945910522", "-122.412961334", null, false ] ]
+, [ 9671, "B2B520FE-20E4-446D-8163-1E613236EC92", 9671, 1497717255, "930934", 1497717255, "930934", null, "110", "TAYLOR ST.", "E", "S. 1328 TAYLOR ST.", "2", "951-00", "FROM D/W FOR 1328 TAYLOR ST. TO", 973641600, null, [ null, "37.7947255366", "-122.41298909", null, false ] ]
+, [ 9672, "B7EDBABF-1FB1-41D7-BC79-361BE48DD726", 9672, 1497717255, "930934", 1497717255, "930934", null, "111", "1067 BROADWAY ST.", "S", "S. BROADWAY ST.", "1", "303-05", "FROM 2 -5 FEET WEST OF DRIVEWAY", 1113696000, null, [ null, "37.7965704854", "-122.414797277", null, false ] ]
+, [ 9673, "707F47CE-6FB8-4F61-8955-66FF20576F64", 9673, 1497717255, "930934", 1497717255, "930934", null, "112", "TAYLOR ST.", "W", "S. VALLEJO ST.", "2", "57-97", "FROM 15' TO 22' N. O THE SOUTH P", 854582400, null, [ null, "37.7973239091", "-122.413756526", null, false ] ]
+, [ 9674, "6E79212F-6E17-4120-A2D4-27A3ABE626E4", 9674, 1497717255, "930934", 1497717255, "930934", null, "113", "TAYLOR ST.", "W", "N. WASHINGTON ST.", "2", "761-95", "FROM 31' TO 38' N. WASHINGON ST.", 812160000, null, [ null, "37.7947987247", "-122.41323058", null, false ] ]
+, [ 9675, "3460F1D8-5494-4816-A92C-B6724C6C9822", 9675, 1497717255, "930934", 1497717255, "930934", null, "114", "TELEGRAPH HILL BLVD", "E", "S. GREENWICH ST.", "2", "696-97", "FROM 32' TO 39' N. OF SOUTH PROP", 869961600, null, [ null, "37.8024482187", "-122.406288496", null, false ] ]
+, [ 9676, "5551C86E-83F9-45EA-9C94-EEB802B1CE61", 9676, 1497717255, "930934", 1497717255, "930934", null, "115", "VALLEJO ST.", "N", "E. LARKIN ST.", "2", "695-97", "FROM 133' TO 143' E. OF LARKIN S", 869961600, null, [ null, "37.7973324429", "-122.419931071", null, false ] ]
+, [ 9677, "2D65AC24-37D7-4584-8DDB-AF59B5C7D35D", 9677, 1497717255, "930934", 1497717255, "930934", null, "116", "VALLEJO ST.", "N", "W. LARKIN ST.", "1", "695-97", "FROM 272' TO 278' W. LARKIN ST.,", 869961600, null, [ null, "37.7971451869", "-122.420776471", null, false ] ]
+, [ 9678, "9F9AEE4E-C127-41DA-8616-3FB49FCA5AF8", 9678, 1497717255, "930934", 1497717255, "930934", null, "117", "VALLEJO ST.", "N", "W. LARKIN ST.", "1", "695-97", "FROM 290' TO 296' W. LARKIN ST.,", 869961600, null, [ null, "37.7970995303", "-122.421212556", null, false ] ]
+, [ 9679, "FF1BCF14-E9DC-4AA5-9929-4CCF62D84EED", 9679, 1497717255, "930934", 1497717255, "930934", null, "118", "VALLEJO ST.", "N", "W. HYDE ST.", "2", "695-97", "FROM 116' TO 125' W. HYDE ST., 9", 869961600, null, [ null, "37.7973600116", "-122.419421639", null, false ] ]
+, [ 9680, "8D23FF18-2D16-4B4D-9E15-8C9F0A9A4508", 9680, 1497717255, "930934", 1497717255, "930934", null, "119", "24TH ST.", "S", "W. CASTRO ST", "2", "44-02", "FROM 258' TO 267.5'  W. CASTRO S", 1012435200, null, [ null, "37.7511610104", "-122.435017829", null, false ] ]
+, [ 9681, "F79D791E-7EC4-40DF-B678-ED43C92C9DB0", 9681, 1497717255, "930934", 1497717255, "930934", null, "120", "4TH AVE.", "E", "S. CORNWALL ST.", "2", "44-02", "FROM 278' TO 286.5' S. CORNWALL", 1012435200, null, [ null, "37.7838186084", "-122.463336469", null, false ] ]
+, [ 9682, "02D3B8B6-13CE-42D4-A81C-7C49EAA722DA", 9682, 1497717255, "930934", 1497717255, "930934", null, "121", "JACKSON ST.", "S", "W. BAKER", "2", "11-01", "BTWN DW #3003 AND #3005", 979171200, null, [ null, "37.7910711713", "-122.444760113", null, false ] ]
+, [ 9683, "3FEF07AC-897F-4E8F-A05C-8D3F547F9BE5", 9683, 1497717255, "930934", 1497717255, "930934", null, "122", "TOWNSEND ST", "S", "W. 2ND ST", "5", "525-01", "FROM 10' TO 27' W. 2ND", 994291200, null, [ null, "37.7801885588", "-122.390787488", null, false ] ]
+, [ 9684, "AA0FD0BE-46AC-4716-88E2-094D0FEB5334", 9684, 1497717255, "930934", 1497717255, "930934", null, "123", "OCTAVIA ST", "W", "N. FRANCISCO ST", "3", "611-01", "FROM 49' TO 60' N. FRANCISCO ST", 996710400, null, [ null, "37.8028676416", "-122.430083818", null, false ] ]
+, [ 9685, "F52874F3-29B6-4BE3-BDA5-A22B76D0E7CE", 9685, 1497717255, "930934", 1497717255, "930934", null, "124", "PIERCE ST", "W", "S. PAGE ST", "2", "684-01", "FROM 39' TO 46' S. PAGE ST", 999129600, null, [ null, "37.772888373", "-122.438473913", null, false ] ]
+, [ 9686, "551C3EAF-DF1D-40C4-96DF-F00E86A280DB", 9686, 1497717255, "930934", 1497717255, "930934", null, "125", "17TH ST", "N", "E. FOLSOM ST", "7", "820-01", "FROM 43.5' TO 72' E. FOLSOM ST", 1003622400, null, [ null, "37.7639183148", "-122.414479652", null, false ] ]
+, [ 9687, "CC0298AD-2D9F-4AE0-BB0F-A89C6DA604EB", 9687, 1497717255, "930934", 1497717255, "930934", null, "126", "DUBOCE AVE", "N", "W. STEINER ST", "6", "915-01", "FROM STEINER TO 23' WESTERLY", 1006992000, null, [ null, "37.7694140915", "-122.431771244", null, false ] ]
+, [ 9688, "3A51FDBC-4581-4472-9C15-AB1B8831A0E9", 9688, 1497717255, "930934", 1497717255, "930934", null, "127", "GOLDEN GATE AVENUE", "S", "W. PIERCE ST", "2", "331-02", "FROM 127' TO 136.5' W. PIERCE(9.5' Z", 1022716800, null, [ null, "37.7799017303", "-122.436255328", null, false ] ]
+, [ 9689, "BABA0565-C399-4990-8E6E-7E49757CC322", 9689, 1497717255, "930934", 1497717255, "930934", null, "128", "4TH AVE", "E", "S. CORNWALL ST", "2", "376-02", "FROM 120' TO 130' S. CORNWALL(IN FRO", 1023926400, null, [ null, "37.7845743049", "-122.462262409", null, false ] ]
+, [ 9690, "A9F0EF69-B005-4947-A407-C18D2930C9D8", 9690, 1497717255, "930934", 1497717255, "930934", null, "129", "NOE ST", "W", "S. MARKET ST", "2", "449-02", "BTWN DRIVEWAYS FOR #334&338 NOE ST(7", null, null, [ null, "37.7633959372", "-122.433183995", null, false ] ]
+, [ 9691, "400EE8E3-756A-4AEA-A969-ED96864CC00F", 9691, 1497717255, "930934", 1497717255, "930934", null, "130", "HAYES ST", "N", "E. BRODERICK ST", "2", "532-02", "BTWN DW FOR #1366&1370 HAYES(12'ZONE", 1029369600, null, [ null, "37.7749410918", "-122.438949068", null, false ] ]
+, [ 9692, "F89AF953-47E9-4A81-9806-803FD51BF31D", 9692, 1497717255, "930934", 1497717255, "930934", null, "131", "GEARY ST", "N", "E. LARKIN ST", "5", "803-02", "FROM 59.5'-77' E.LARKIN,IN FRONT OF", 1038096000, null, [ null, "37.7862327422", "-122.41775636", null, false ] ]
+, [ 9693, "50961700-364D-4FB3-8EEC-730C64AAB42A", 9693, 1497717255, "930934", 1497717255, "930934", null, "132", "TAYLOR ST", "W", "N. CLAY ST", "7", "803-02", "FROM 70'-94' N.CLAY ST.", null, null, [ null, "37.7937195793", "-122.413012714", null, false ] ]
+, [ 9694, "CF9C081F-E88E-4BF8-AEF1-EBFB778D1D36", 9694, 1497717255, "930934", 1497717255, "930934", null, "133", "GREEN ST", "S", "E. MONTGOMERY", "9", "75-03", "FROM MONTGOMERY TO 31.5' EASTERLY", null, null, [ null, "37.800050318", "-122.403975514", null, false ] ]
+, [ 9695, "B5C8F3AF-2FD3-4E8E-8E0F-155904A2382E", 9695, 1497717255, "930934", 1497717255, "930934", null, "134", "GALLAGHER LANE", "E", "S. TEHAMA ST", "5", "78-03", "FROM 2.5'-20' SOUTH OF TEHAMA ST", null, null, [ null, "37.781900734", "-122.403167312", null, false ] ]
+, [ 9696, "41306B74-870A-4F05-B4A7-5737E7A792EC", 9696, 1497717255, "930934", 1497717255, "930934", null, "135", "NOE ST", "W", "S. 15TH ST.", "2", "445-03", "FROM 47' SOUTH OF 15TH ST", null, null, [ null, "37.7656569446", "-122.433395934", null, false ] ]
+, [ 9697, "594748D2-584F-44F1-A49A-FA8F43D00995", 9697, 1497717255, "930934", 1497717255, "930934", null, "136", "FILLMORE ST", "W", "N. HAYES ST", "5", "730-93", "FROM 121' TO 143' NORTH OF HAYES ST", null, null, [ null, "37.776051752", "-122.431363318", null, false ] ]
+, [ 9698, "9B7677D3-309C-4CD6-9451-6747FDD253C2", 9698, 1497717255, "930934", 1497717255, "930934", null, "137", "HILL ST", "N", "N. HILL ST", "5", "73-04", "BTWN GUERRERO AND VALENCIA, 16 HILL", null, null, [ null, "37.756150333", "-122.421730239", null, false ] ]
+, [ 9699, "34B1F5E4-6A25-4709-8282-3C2389E064E3", 9699, 1497717255, "930934", 1497717255, "930934", null, "138", "GREENWICH ST", "S", "E. HYDE ST", "1", "73-04", "FROM 35.5 FEET TO 39 FEET SOUTH OF T", null, null, [ null, "37.8011503446", "-122.419184862", null, false ] ]
+, [ 9700, "26B0FD10-354A-4711-8E16-2881DA37AB4E", 9700, 1497717255, "930934", 1497717255, "930934", null, "139", "STEINER ST", "E", "1000 STEINER ST", "6", "73-04", "FROM 1000 FEET TO 1006 FEET", null, null, [ null, "37.7786926838", "-122.433582485", null, false ] ]
+, [ 9701, "F1D8ECA6-6B75-48C9-B449-A22C07F90A6F", 9701, 1497717255, "930934", 1497717255, "930934", null, "140", "15TH ST", "N", "E. HARRISON ST", "2", "196-05", "FROM HARRISON ST TO 7 FEET EASTERLY", 1113350400, null, [ null, "37.7668437347", "-122.413046826", null, false ] ]
+, [ 9702, "D8825FE0-255A-41F1-AC1F-0F90D41867E2", 9702, 1497717255, "930934", 1497717255, "930934", null, "141", "DOLORES ST", "W", "N. 28TH ST", "4", "73-04", "FROM 8 FEET TO 22 FEET N. OF 28TH ST", null, null, [ null, "37.7688878281", "-122.426600217", null, false ] ]
+, [ 9703, "5EB09DD1-1F52-4AFD-991B-376D032DD89F", 9703, 1497717255, "930934", 1497717255, "930934", null, "142", "DOLORES ST", "E", "E. DOLORESST", "2", "196-05", "FROM EBETWEEN 401AND 405 DOLORES ST", null, null, [ null, "37.7628464959", "-122.426356401", null, false ] ]
+, [ 9704, "0A01FE78-1984-4FBA-BC5F-2E7185A741D1", 9704, 1497717255, "930934", 1497717255, "930934", null, "143", "12TH ST", "E", "S. KISSLING ST", "1", "553-04", "FROM 119 FEET TO 140 FEET SOUTH OF K", null, null, [ null, "37.7713423572", "-122.415685918", null, false ] ]
+, [ 9705, "52789B5B-BA50-4C6A-BBD8-757423E4B27D", 9705, 1497717255, "930934", 1497717255, "930934", null, "144", "DOLORES ST", "W", "N. 28TH ST", "4", "73-04", "FROM 8 FEET TO 22 FEET NORTH OF 28TH", null, null, [ null, "37.7456621125", "-122.42468561", null, false ] ]
+, [ 9706, "DFDE17BB-3C11-449C-9B9F-6F2A278FE0F5", 9706, 1497717255, "930934", 1497717255, "930934", null, "145", "HAYES ST", "N", "W. BRODERICK ST", "1", "142-04", "WITHIN THE NINE FOOT CURB", null, null, [ null, "37.7747379983", "-122.440249034", null, false ] ]
+, [ 9707, "605078EF-1DF8-4EF7-8103-59C1089FF181", 9707, 1497717255, "930934", 1497717255, "930934", null, "146", "CARL ST", "N", "E. WILLARD ST", "4", "60-05", "FROM 13 FEET TO 27 FEET EASTERLY", 1136764800, null, [ null, "37.7653912098", "-122.454141385", null, false ] ]
+, [ 9708, "4B188F72-EF19-4E5B-9381-756090C156A7", 9708, 1497717255, "930934", 1497717255, "930934", null, "147", "FREDERICK ST", "S", "E. ARGUELLO ST", "2", "73-04", "FROM THE EAST END TO 8 FEET WESTERLY", null, null, [ null, "37.765950444", "-122.455215251", null, false ] ]
+, [ 9709, "6B4FCC1B-93E2-44B1-81BF-FFADE004A612", 9709, 1497717255, "930934", 1497717255, "930934", null, "148", "FREDERICK ST", "N", "W. DELMAR", "2", " ", "FROM DELMAR STREET 9FEET WESTERLY", null, null, [ null, "37.7674024518", "-122.445751888", null, false ] ]
+, [ 9710, "CBD7DEEE-BF5F-4A2F-B78B-8DFFE43800FB", 9710, 1497717255, "930934", 1497717255, "930934", null, "149", "LAGUNA HONDA BLVD", "W", "300 LAGUNA HONDA BLVD", "3", "303-05", "BTWN  DRIVEWAYS OF 300 LAGUNA HONDA", 1113696000, null, [ null, "37.7545076253", "-122.46404795", null, false ] ]
+, [ 9711, "EA4B5C0B-1973-4247-899C-05B25D9CC4FC", 9711, 1497717255, "930934", 1497717255, "930934", null, "150", "6TH AVENUE", "E", "S. BALBOA ST", "1", "390-04", "1 SPACE BETWEEN 620 AND 624 DRIVEWAY", null, null, [ null, "37.776847537", "-122.463849322", null, false ] ]
+, [ 9712, "42627406-FF1E-4B5C-B00A-40E60FE38B80", 9712, 1497717255, "930934", 1497717255, "930934", null, "151", "7TH STREET", "W", "N. TOWNSEND ST", "6", "654-04", "FROM 76 FEET TO 97 FEET NORTH OF TOW", null, null, [ null, "37.7719867147", "-122.402104634", null, false ] ]
+, [ 9713, "8FD59D01-6DCE-40E4-BF1C-9651CBB7CB6F", 9713, 1497717255, "930934", 1497717255, "930934", null, "152", "PAGE ST.", "S", "W. 721 PAGE ST.", "2", "1004-99", "FROM 4' E. OF THE WEST PROPERTY", 943315200, null, [ null, "37.7728504625", "-122.432780286", null, false ] ]
+, [ 9714, "C1F0C276-FAA3-4029-BF91-63CA20717A46", 9714, 1497717255, "930934", 1497717255, "930934", null, "153", "FREDERICK ST", "N", "E. ARGUELLO ST", "4", "74-03", "FROM THE EAST END TO 14 FEET WESTERL", null, null, [ null, "37.7661689019", "-122.454885623", null, false ] ]
+, [ 9715, "4E5C1AEF-5C90-44EB-B3DB-86E2E988D656", 9715, 1497717255, "930934", 1497717255, "930934", null, "154", "WALLER ST", "S", "231 AND 235 WALLER ST", "2", "73-04", "FROM 231 FEET TO 235 FEET OF WALLER", null, null, [ null, "37.7714341092", "-122.427565023", null, false ] ]
+, [ 9716, "87E4A3DC-D7F1-4530-BAE0-FDE5EB6A4839", 9716, 1497717255, "930934", 1497717255, "930934", null, "155", "LARKIN ST.", "W", "N. FILBERT ST.", "2", "695-97", "FROM 85' TO 92' N. FILNERT ST.,", 869961600, null, [ null, "37.7992944319", "-122.420906791", null, false ] ]
+, [ 9717, "C06182BF-095C-4284-8F1E-E259300BE28D", 9717, 1497717255, "930934", 1497717255, "930934", null, "156", "TAYLOR ST.", "W", "S. VALLEJO ST.", "1", "57-97", "FROM 1.5' TO 5' N. OF THE SOUT P", 854582400, null, [ null, "37.7976228444", "-122.413816811", null, false ] ]
+, [ 9718, "2DC7F2BB-8D1A-4F00-807E-1518B66CFB9C", 9718, 1497717255, "930934", 1497717255, "930934", null, "157", "PAGE ST", "S", " ", "3", "142-04", "1669 AND 1673 DRIVEWAYS PAGE STREET", null, null, [ null, "37.770732681", "-122.448167345", null, false ] ]
+, [ 9719, "358A1D51-CED3-49DC-BB49-B24EE9FA2BAA", 9719, 1497717255, "930934", 1497717255, "930934", null, "158", "NORFOLK ST", "S", " 55 NORFOLK ST", "2", "548-05", "BETWEEN 49 AND 51", 1123977600, null, [ null, "37.7708654361", "-122.413585852", null, false ] ]
+, [ 9720, "555DC83B-B997-4FC7-94AD-AE4BAE1574BD", 9720, 1497717255, "930934", 1497717255, "930934", null, "159", "27TH ST", "N", " 324 27TH ST", "2", "417-05", "BETWEEN 318 AND 322", 1116460800, null, [ null, "37.7473532695", "-122.421946661", null, false ] ]
+, [ 9721, "FF1C5B2F-7F2F-4433-ACD1-C1EC45E4B001", 9721, 1497717255, "930934", 1497717255, "930934", null, "160", "SHOTWELL ST", "E", "339 SHOTWELL ST", "6", "417-05", "BETWEEN 337 AND 339", 1116460800, null, [ null, "37.7634942983", "-122.416042087", null, false ] ]
+, [ 9722, "E73CBC12-8237-4F07-8578-BAEE65A8E998", 9722, 1497717255, "930934", 1497717255, "930934", null, "161", "SHOTWELL ST", "W", "908 SHOTWELL ST", "2", "474-05", "BETWEEN 908 AND 910 SHOTWELL ST", 1121299200, null, [ null, "37.7538497447", "-122.415529559", null, false ] ]
+, [ 9723, "ABE5FC97-65DF-4862-BAB2-7A3633CAC107", 9723, 1497717255, "930934", 1497717255, "930934", null, "162", "DORLAND ST", "S", "285 DORLAND ST", "3", "63-06", "BETWEEN 285 AND 295 DORLAND", null, null, [ null, "37.7619960537", "-122.429583903", null, false ] ]
+, [ 9724, "A2B9FF6E-ED46-45AD-95F1-DF5CAA1B32F3", 9724, 1497717255, "930934", 1497717255, "930934", null, "163", "FILLMORE ST", "E", "E. AT THE OFARRELL ST", "10", "187-06", "FILLMORE / OFARRELL ST INTERSECTION", 1138147200, null, [ null, "37.7835419487", "-122.43251633", null, false ] ]
+, [ 9725, "2DCECD70-34D9-43E3-873A-E7DAD5FA9731", 9725, 1497717255, "930934", 1497717255, "930934", null, "164", "HARRIET ST", " W", " N. BRYANT ST", "12", "243-06", "245 FEET TO 295 FEET N. OF BRYANT", 1140998400, null, [ null, "37.7757231475", "-122.403474238", null, false ] ]
+, [ 9726, "AD90AD54-7F8A-4002-B6A1-B7A7A7E0FE4B", 9726, 1497717255, "930934", 1497717255, "930934", null, "165", "10TH AVENUE", "E", "1365-1371 10TH AVE", "2", "243-06", "1365-1371 10TH AVENUE", 1140998400, null, [ null, "37.7786206693", "-122.468194551", null, false ] ]
+, [ 9727, "B9C881D7-ED70-46F5-97D6-66F2C80A6A23", 9727, 1497717255, "930934", 1497717255, "930934", null, "166", "OAK ST", "S", "1165 TO 1171 OAK ST", "2", "684-01", "FROM 1165 TO 1171 OAK ST", 1188432000, null, [ null, "37.7723341443", "-122.433995328", null, false ] ]
+, [ 9728, "E1A47547-5661-4C60-9B90-C6B5AAEBB467", 9728, 1497717255, "930934", 1497717255, "930934", null, "167", "BARTLETT ST", " S", "S OF 1125 VALENCIA DRIVEWAY", "4", " 08-018", " 100 BLOCK OF BARTLETT ST (17 FEET)", 1201651200, null, [ null, "37.7546919037", "-122.419886686", null, false ] ]
+, [ 9729, "21D2F3C9-41DF-410F-BF5C-6CE46E59FE4B", 9729, 1497717255, "930934", 1497717255, "930934", null, "168", "GREENWICH ST", " S", "990 GREENWICH ST", "2", "662-06", "7.4 FEET TO 16 FEET EAST OF JONES S", 1163894400, null, [ null, "37.8014216614", "-122.415970352", null, false ] ]
+, [ 9730, "526AD57E-ABEA-43E2-9429-2AEED8CCA78E", 9730, 1497717255, "930934", 1497717255, "930934", null, "169", "HYDE ST", " W", " 2037 HYDE ST", "2", " 456-07", " FROM 2037 TO 2041 HYDE ST", 1186358400, null, [ null, "37.7997027761", "-122.419268932", null, false ] ]
+, [ 9731, "21DD0C51-64E3-488F-8F45-E44E2C87C45F", 9731, 1497717255, "930934", 1497717255, "930934", null, "170", "TAYLOR ST", "E", "E. OF TAYLOR ST", "6", " 456-07", " FROM PINE ST TO 25 FEET SOUTH", 1186358400, null, [ null, "37.7905032215", "-122.4121104", null, false ] ]
+, [ 9732, "C17BAD15-EB4F-420E-81AE-0A45F0CDF211", 9732, 1497717255, "930934", 1497717255, "930934", null, "171", " WASHINGTON ST", " S", "2921 WASHINGTON ST", "4", "456-07", " BTWN THE DRIVEWAYS", 1178409600, null, [ null, "37.7905982289", "-122.441423441", null, false ] ]
+, [ 9733, "F70BE308-0EB1-4410-A48F-AEFE46D9437B", 9733, 1497717255, "930934", 1497717255, "930934", null, "172", " OCTAVIA BLVD", " E", " E OF OCTAVIA BLVD", "4", "208-07", " FROM LINDEN ST TO 14 FEET NORTH", 1177286400, null, [ null, "37.7763460635", "-122.424446417", null, false ] ]
+ ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../MotoParker/motoIcon-20@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../MotoParker/motoIcon-20@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../MotoParker/motoIcon-40@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../MotoParker/motoIcon-40@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../MotoParker/motoIcon-60@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:../MotoParker/motoIcon-60@3x.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

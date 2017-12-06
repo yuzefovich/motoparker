@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="MotoParker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to MotoParker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lza-jG-XfY">
+                                <rect key="frame" x="0.0" y="70" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlK-wd-68N">
+                                <rect key="frame" x="84" y="338" width="206" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Let's find you a parking!"/>
+                                <connections>
+                                    <action selector="ContinueButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IUd-uX-brJ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="motorcycleicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="sLo-Oc-ZUk">
+                                <rect key="frame" x="127" y="141" width="120" height="97"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hlK-wd-68N" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GRl-ix-Dr0"/>
+                            <constraint firstItem="sLo-Oc-ZUk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lli-YQ-VNo"/>
+                            <constraint firstItem="sLo-Oc-ZUk" firstAttribute="top" secondItem="Lza-jG-XfY" secondAttribute="bottom" constant="50" id="YTC-E1-byr"/>
+                            <constraint firstItem="hlK-wd-68N" firstAttribute="top" secondItem="sLo-Oc-ZUk" secondAttribute="bottom" constant="100" id="b4u-8q-oIC"/>
+                            <constraint firstItem="Lza-jG-XfY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="cfw-bl-t0b"/>
+                            <constraint firstItem="Lza-jG-XfY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="uuD-km-6kP"/>
+                            <constraint firstItem="Lza-jG-XfY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zd4-hp-mv0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <segue destination="nEC-3L-FcB" kind="show" identifier="WelcomeToParking" id="LMZ-Ep-cnp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-868" y="-143"/>
+        </scene>
+        <!--Metered-->
+        <scene sceneID="qju-ir-mgs">
+            <objects>
+                <viewController id="g65-oM-fld" customClass="MeteredMapViewController" customModule="MotoParker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IVC-03-EMq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zQO-Nq-v8B">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zQO-Nq-v8B" firstAttribute="top" secondItem="F48-M5-2U4" secondAttribute="top" id="4tV-fe-UDB"/>
+                            <constraint firstItem="zQO-Nq-v8B" firstAttribute="leading" secondItem="F48-M5-2U4" secondAttribute="leading" id="5hc-AX-00N"/>
+                            <constraint firstItem="zQO-Nq-v8B" firstAttribute="top" secondItem="F48-M5-2U4" secondAttribute="top" id="SzM-Ae-2Zo"/>
+                            <constraint firstItem="F48-M5-2U4" firstAttribute="bottom" secondItem="zQO-Nq-v8B" secondAttribute="bottom" id="VLP-II-hWX"/>
+                            <constraint firstItem="F48-M5-2U4" firstAttribute="bottom" secondItem="zQO-Nq-v8B" secondAttribute="bottom" id="loM-3i-4xZ"/>
+                            <constraint firstItem="zQO-Nq-v8B" firstAttribute="trailing" secondItem="F48-M5-2U4" secondAttribute="trailing" id="wRo-D6-Cp2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="F48-M5-2U4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Metered" image="dollar" id="95m-vp-8zV"/>
+                    <connections>
+                        <outlet property="mapView" destination="zQO-Nq-v8B" id="Q9M-fa-UaI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xe-Bs-MD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1406" y="193"/>
+        </scene>
+        <!--Free-->
+        <scene sceneID="ewf-Dm-b7k">
+            <objects>
+                <viewController id="roT-d7-Cn9" customClass="UnmeteredMapViewController" customModule="MotoParker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1XU-eA-MGz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cbQ-4U-pVv">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Cmn-JY-kVW" firstAttribute="bottom" secondItem="cbQ-4U-pVv" secondAttribute="bottom" id="2Ql-Kc-QdG"/>
+                            <constraint firstItem="Cmn-JY-kVW" firstAttribute="bottom" secondItem="cbQ-4U-pVv" secondAttribute="bottom" id="35D-nR-iTu"/>
+                            <constraint firstItem="Cmn-JY-kVW" firstAttribute="trailing" secondItem="cbQ-4U-pVv" secondAttribute="trailing" id="Cu0-h8-NR6"/>
+                            <constraint firstItem="cbQ-4U-pVv" firstAttribute="top" secondItem="Cmn-JY-kVW" secondAttribute="top" id="D9Y-Us-TNd"/>
+                            <constraint firstItem="cbQ-4U-pVv" firstAttribute="trailing" secondItem="Cmn-JY-kVW" secondAttribute="trailing" id="If9-99-u6w"/>
+                            <constraint firstItem="cbQ-4U-pVv" firstAttribute="top" secondItem="Cmn-JY-kVW" secondAttribute="top" id="OBE-Au-Sb9"/>
+                            <constraint firstItem="cbQ-4U-pVv" firstAttribute="leading" secondItem="Cmn-JY-kVW" secondAttribute="leading" id="Q5c-cZ-oAZ"/>
+                            <constraint firstItem="cbQ-4U-pVv" firstAttribute="top" secondItem="Cmn-JY-kVW" secondAttribute="top" id="fYF-LP-8tf"/>
+                            <constraint firstItem="cbQ-4U-pVv" firstAttribute="leading" secondItem="Cmn-JY-kVW" secondAttribute="leading" id="stR-OZ-qRW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Cmn-JY-kVW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Free" image="smiley" id="4DY-pq-Hq8"/>
+                    <connections>
+                        <outlet property="mapView" destination="cbQ-4U-pVv" id="eM8-lT-4wG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dG1-z7-YK2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1407" y="-475"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="4KZ-bG-u2Y">
+            <objects>
+                <tabBarController id="nEC-3L-FcB" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9IN-mA-DgQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="roT-d7-Cn9" kind="relationship" relationship="viewControllers" id="OzU-Q8-IST"/>
+                        <segue destination="g65-oM-fld" kind="relationship" relationship="viewControllers" id="kP6-aY-GlA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwn-Pa-btv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150" y="-143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dollar" width="25" height="25"/>
+        <image name="motorcycleicon.png" width="120" height="97"/>
+        <image name="smiley" width="25" height="25"/>
+    </resources>
+</document>
